@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    width: 100%;
+    height: 170px;
+    background-color: lightskyblue;
+    color: whitesmoke;
+    line-height: 170px;
+    
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: buttonface;
+    
+}
+nav li{
+    display: inline;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+    
+    margin-left: 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid whitesmoke;
+    font-size: 20px;
+    padding: 5px;
+    
+}
+
+nav li :hover{
+    color: lightskyblue;
+}
+
+.container{
+    margin: 0 auto;
+    width: 960px;
+    box-shadow: 10px 10px 10px 10px lightskyblue;
+    height: 100%;
+    padding:40px;
+}
+#posts{
+    width: 450px;
+    height: 150px;
+    background-color: lightblue;
+    
+    border-radius: 30px;
+    border: 1px solid lightseagreen;
+    margin: 20px 0px;
+    
+}
+#posts h3{
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+#posts button{
+    color: lightblue;
+    background-color: white;
+    border: 1px solid lightseagreen;
+    border-radius: 30px;
+    width: 60px;
+    height: 30px;
+    
+}
+#posts input{
+    width: 300px;
+    height: 70px;
+    border: none;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+
+.publications{
+    width: 450px;
+    height: 100%;
+    background-color: lightblue;
+    
+    border-radius: 30px;
+    border: 1px solid lightseagreen;
+    margin: 20px 0px;
+    list-style: none;
+}
+.publications h3{
+     color: white;
+    margin-left: 30px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.publications p{
+    margin-left: 20px;
+}
+#myProfile h2{
+    color: lightskyblue;
+}
+.people {
+    width: 450px;
+    height: 100%;
+    background-color: lightblue;
+    
+    border-radius: 30px;
+    border: 1px solid lightseagreen;
+    margin: 20px 0px;
+    list-style: none;
+    text-decoration: none;
+   
+    
+    
+}
